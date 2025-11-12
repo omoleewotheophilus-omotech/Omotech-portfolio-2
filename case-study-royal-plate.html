@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Royal Plate — Case Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <a class="logo" href="index.html">Omotech</a>
+      <nav class="main-nav">
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section constrain">
+      <h1>The Royal Plate</h1>
+      <p class="lead">Luxury steak & grills multi-page website. Built responsive with local cart persistence and WhatsApp checkout.</p>
+
+      <div class="case-grid">
+        <img src="images/royal-plate-hero.jpg" alt="Hero">
+        <img src="images/royal-plate-menu.jpg" alt="Menu">
+        <img src="images/royal-plate-order.jpg" alt="Order">
+      </div>
+
+      <h2>What I built</h2>
+      <ul>
+        <li>Multi-page HTML/CSS/JS site (Home, Menu, Order, Contact)</li>
+        <li>Local cart persistence (localStorage) and WhatsApp checkout</li>
+        <li>Dark luxury theme with responsive design</li>
+      </ul>
+
+      <p><a class="btn" href="https://omoleewotheophilus-omotech.github.io/restaurant-website/" target="_blank">View Live Site</a>
+         <a class="btn outline" href="https://github.com/omoleewotheophilus-omotech/restaurant-website" target="_blank">View Code</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>© <span id="year3"></span> Omotech</p></div>
+  </footer>
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>
