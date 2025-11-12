@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Omotech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <a class="logo" href="index.html">Omotech</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <div class="grid cards">
+          <!-- The Royal Plate (case study page below) -->
+          <article class="card">
+            <img src="images/royal-plate-thumb.jpg" alt="The Royal Plate">
+            <h3>The Royal Plate</h3>
+            <p>Luxury multi-page restaurant site — WhatsApp ordering & premium UI.</p>
+            <a class="btn small" href="case-study-royal-plate.html">View Case Study</a>
+          </article>
+
+          <!-- Fresh Juice -->
+          <article class="card">
+            <img src="images/fresh-juice-thumb.jpg" alt="Fresh Juice">
+            <h3>Fresh Juice Company</h3>
+            <p>Clean GoHighLevel landing and conversion UX.</p>
+            <a class="btn small" href="case-study-fresh-juice.html">View Case Study</a>
+          </article>
+
+          <!-- Sales Automation -->
+          <article class="card">
+            <img src="images/sales-automation-thumb.jpg" alt="Sales Automation">
+            <h3>Sales Automation</h3>
+            <p>Landing + funnel automation for lead capture.</p>
+            <a class="btn small" href="case-study-sales-automation.html">View Case Study</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> Omotech</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
